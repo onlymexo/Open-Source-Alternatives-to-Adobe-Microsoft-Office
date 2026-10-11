@@ -1,33 +1,32 @@
-# Open-Source Alternatives Suite
+# Open-Source Alternatives to Adobe & Microsoft Office
 
-An open-source ecosystem of high-performance applications designed as free alternatives to proprietary software from Adobe and Microsoft. Built to offer powerful creative, document, and productivity tools without subscription fees.
+A curated list of free, high-performance, and open-source software designed to replace proprietary suites like Adobe Creative Cloud and Microsoft Office.
 
 ---
 
 ## 🎨 Adobe Alternatives
 
-| Original Software | Open-Source Alternative | Description | Links |
+| Proprietary Software | Open-Source Alternative | Description | Links |
 | :--- | :--- | :--- | :--- |
-| **Adobe Photoshop** | [PhotoCraft](https://github.com/artcraft/photocraft) | Advanced raster image editing, supporting layers, masks, filters, vector paths, and PSD files. | [Website](https://getartcraft.com/photocraft) / [Source & Docs](https://github.com/artcraft/photocraft) |
-| **Adobe Premiere Pro** | [FilmCraft](https://github.com/artcraft/filmcraft) | Non-linear video editing with a high-performance GPU compositor, timeline workflows, and support for professional codecs (H.264, HEVC, ProRes, AAC). | [Website](https://getartcraft.com/filmcraft) / [Source & Docs](https://github.com/artcraft/filmcraft) |
-| **Adobe After Effects** | [EffectCraft](https://github.com/artcraft/effectcraft) | Motion graphics, visual effects, and animated titles creation using a layer-based composition system (solids, text, shapes). | [Website](https://getartcraft.com/effectcraft) / [Source & Docs](https://github.com/artcraft/effectcraft) |
-| **Adobe Acrobat** | [PdfCraft / PrintCraft](https://github.com/artcraft/pdfcraft) | Complete toolset for reading, organizing, merging, splitting, and securing PDF files with advanced layout capabilities. | [Website](https://getartcraft.com/pdfcraft) / [Source & Docs](https://github.com/artcraft/pdfcraft) |
+| **Adobe Photoshop** | **GIMP** | Powerful raster image editor with layer support, custom brushes, and extensibility. | [Official Site](https://www.gimp.org) / [GitHub](https://github.com/GNOME/gimp) |
+| **Adobe Illustrator** | **Inkscape** | Professional vector graphics editor for SVG format, illustrations, and logos. | [Official Site](https://inkscape.org) / [GitLab](https://gitlab.com/inkscape/inkscape) |
+| **Adobe Premiere Pro** | **Kdenlive** | Multi-track, non-linear video editor with advanced effects, transitions, and audio tools. | [Official Site](https://kdenlive.org) / [KDE GitLab](https://invent.kde.org/multimedia/kdenlive) |
+| **Adobe Premiere Pro** | **Shotcut** | Cross-platform video editor supporting hundreds of audio and video formats. | [Official Site](https://shotcut.org) / [GitHub](https://github.com/mltframework/shotcut) |
+| **Adobe After Effects** | **Natron** | Node-based compositor for motion graphics and visual effects (VFX). | [GitHub](https://github.com/NatronGitHub/Natron) |
+| **Adobe Acrobat** | **PDFgear / Stirling-PDF** | Powerful web-based and desktop tools to edit, merge, split, and convert PDF documents. | [Stirling-PDF GitHub](https://github.com/Stirling-Tools/Stirling-PDF) |
 
 ---
 
 ## 📊 Microsoft Office Alternatives
 
-| Original Software | Open-Source Alternative | Description | Links |
+| Proprietary Software | Open-Source Alternative | Description | Links |
 | :--- | :--- | :--- | :--- |
-| **Microsoft Word** | [WordCraft](https://github.com/artcraft/wordcraft) | Clean, open-source word processor written in Rust, supporting `.docx` documents, custom styles, tables, and mail merge. | [Website](https://getartcraft.com/wordcraft) / [Source & Docs](https://github.com/artcraft/wordcraft) |
-| **Microsoft Excel** | [GridCraft](https://github.com/artcraft/gridcraft) | Fast, open-source spreadsheet application built in Rust, featuring conditional formatting, formulas, and integrated charting tools. | [Website](https://getartcraft.com/gridcraft) / [Source & Docs](https://github.com/artcraft/gridcraft) |
-| **Microsoft PowerPoint** | [DeckCraft](https://github.com/artcraft/deckcraft) | Slide presentation application with native AI agent integration via CLI and Model Context Protocol (MCP), supporting layout customisation. | [Website](https://getartcraft.com/deckcraft) / [Source & Docs](https://github.com/artcraft/deckcraft) |
+| **Microsoft Office (Suite)** | **LibreOffice** | Comprehensive office suite including Writer (Word), Calc (Excel), and Impress (PowerPoint). | [Official Site](https://www.libreoffice.org) / [Git](https://git.libreoffice.org) |
+| **Microsoft Office (Suite)** | **ONLYOFFICE** | Highly compatible office suite with native support for `.docx`, `.xlsx`, and `.pptx` formats. | [Official Site](https://www.onlyoffice.com) / [GitHub](https://github.com/ONLYOFFICE) |
+| **Microsoft Word** | **Obsidian / Logseq** | Markdown-based knowledge base and document editor for local-first plain-text notes. | [Logseq GitHub](https://github.com/logseq/logseq) |
 
 ---
 
-## 🤖 AI Agent Integration
-Because all the tools in this suite are fully open-source, you can connect your AI agents directly to them using command-line interfaces (CLI) and MCP protocols to automate tasks, generate content, and manipulate files programmatically.
+## 🤖 AI Agent Integration & Utilities
 
-## 💬 Community & Support
-Join the community to get help, share feedback, and contribute to the development:
-* [Discord Community](https://discord.gg/artcraft)
+Many of these tools offer command-line tools (CLI) and API hooks, allowing integration with AI workflows, scripts, and automated build pipelines.
