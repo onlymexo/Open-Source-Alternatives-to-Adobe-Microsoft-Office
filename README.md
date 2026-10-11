@@ -27,9 +27,31 @@ An open-source ecosystem of high-performance applications designed as free, comm
 
 ---
 
+## 📥 How to Download & Install
+
+Getting started is super simple. Pick your operating system below:
+
+### 🪟 Windows
+1. Go to getartcraft.com or click any [Website] link above.
+2. Click "Download for Windows" to get the `.exe` installer.
+3. Open the downloaded file and follow the setup wizard.
+
+### 🍎 macOS
+1. Open the tool page on getartcraft.com.
+2. Download the `.dmg` file for Apple Silicon or Intel.
+3. Drag the app into your Applications folder and double-click to launch.
+
+### 🐧 Linux
+1. Download the `.AppImage` package from the website.
+2. Open terminal, grant execution permissions (`chmod +x app.AppImage`), and run it (`./app.AppImage`).
+
+---
+
 ## 🤖 AI Agent Integration
 
 Because all of these tools are open-source, you can connect AI agents directly to any of them using command-line interfaces (CLI) and Model Context Protocol (MCP) to automate workflows, build presentations, or process data programmatically.
+
+---
 
 ## 💬 Community & Support
 
